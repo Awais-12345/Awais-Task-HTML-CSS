@@ -1,0 +1,119 @@
+body {
+    background-color:#E7E9EB;
+    padding: 20px;
+    font-family: "Courier New";
+    margin: 20px;
+
+}
+
+.top{
+    background-color:black;
+    padding: 40px 20px;
+    @media (max-width:600px) {
+        padding:20px 10px;
+        
+    }
+    }
+.top h1{
+    color: #84c754;
+    padding:20px  0 0 25px;
+    font-size:40px;
+    font-weight: bold;
+}
+h1,p{
+    margin: 0%;
+}
+.top p{
+    color: #84c754;
+    padding:0 0 0 25px;
+    font-size: 20px;
+}
+.second li{
+    padding:10px 0;
+    color: white;
+    
+}
+.second  a  {
+    color: #84c754;
+    
+}
+ .second  a:hover {
+  color: white;
+} 
+
+#maincontainer{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    align-items: center;
+    @media (max-width: 600px) {
+        flex-direction: column;
+        justify-content: center;
+        /* width: 100%; */
+        margin: auto;
+
+    }
+}
+.side{
+    border: 1px solid white;
+    color: white;
+    border-radius:4px;
+    text-align:left;
+    width:50%;
+    
+}
+ .side h2{
+    padding:15px 0 0 10px;
+    font-size:15px;
+}
+ .side p{
+    color: white;
+    font-size:15px;
+    line-height:25px;
+    padding:5px 0 0px 10px;
+
+}
+.content h1{
+    font-size: 35px;
+    margin: 15px 0 15px 0;
+}
+.content p{
+    font-size:15px;
+    line-height: 25px;
+
+}  
+.content a{
+     margin:0 0 10px 25px;
+     color: white;
+     text-decoration: underline;
+}
+.content a:hover{
+    color: #84c754;
+}
+ h3{
+    margin:20px 0 20px 25px ;
+    color: #84c754;
+    font-size:25px;
+ }
+  p{
+    font-size: 15px;
+ }
+ a{
+    margin:0 0 0 25px;
+    color:white;
+    text-decoration: underline;
+}
+a:hover{
+    color:#84c754;
+}
+.footer{
+    border: 1px solid white;
+    border-radius:4px;
+    margin:15px;
+    max-width:100%;
+}
+.footer p {
+    font-size:15px;   
+    text-align: center;
+
+}

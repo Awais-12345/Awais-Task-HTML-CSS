@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="type.css"/>
+    
+  </head>
+  <body>
+    <div>
+      <h2>Simple Arithmetic<br> 
+        Calculator</h2>
+      <hr />
+      <input type="text" id="input" />
+      <br />
+      <button onclick="cal('1')">1</button>
+      <button onclick="cal('2')">2</button>
+      <button onclick="cal('3')">3</button>
+      <button onclick="cal('4')">4</button>
+      <br />
+      <button onclick="cal('5')">5</button>
+      <button onclick="cal('6')">6</button>
+      <button onclick="cal('7')">7</button>
+      <button onclick="cal('8')">8</button>
+      <br />
+
+      <button onclick="cal('9')">9</button>
+      <button onclick="cal('+')">+</button>
+      <button onclick="cal('-')">-</button>
+      <button onclick="cal('*')">*</button>
+      <br />
+      <button onclick="cal('/')">/</button>
+      <button onclick="Equal()">=</button>
+      <button onclick="Clear()">Clear</button>
+    </div>
+    <script>
+      function cal(value) {
+        document.getElementById("input").value += value;
+        console.log(value);
+        
+        
+      }
+
+
+
+      // function not(value){
+      //   document.getElementById("input").value;
+      // }
+      function Equal() {
+        document.getElementById("input").value = eval(
+          document.getElementById("input").value
+        );
+      }
+      function Clear() {
+        document.getElementById("input").value = "";
+      }
+    </script>
+  </body>
+</html>

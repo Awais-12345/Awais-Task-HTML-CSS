@@ -1,0 +1,46 @@
+.Outer {
+  background-color: tomato;
+}
+h2 {
+  padding: 20px 0 0 10px;
+}
+.inner {
+  background-color: yellow;
+  min-height: 200px;
+}
+h3{
+    padding: 20px 0 0 10px;
+}
+.xyz{
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+
+}
+.a{
+    background-color: aqua;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+}
+.b{
+    background-color:green;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+}
+.c{
+
+    background-color:white;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+
+}
+.d{
+    background-color: brown;
+    width: 150px;
+    height: 100px;
+    text-align: center;
+}
+

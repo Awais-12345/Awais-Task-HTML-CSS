@@ -1,0 +1,3 @@
+let ary = [22,33,88,99,92,11,21,23];
+ let p = ary.forEach(value);
+ console.log(p);
